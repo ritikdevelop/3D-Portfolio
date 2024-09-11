@@ -3,6 +3,7 @@ import { Center, useTexture } from "@react-three/drei";
 import gsap from "gsap";
 import { useCallback, useRef } from "react";
 
+// eslint-disable-next-line react/prop-types
 const Rings = ({ position }) => {
   const refList = useRef([]);
   const getRef = useCallback((mesh) => {

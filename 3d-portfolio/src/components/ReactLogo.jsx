@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef } from "react";
 import { Float, useGLTF } from "@react-three/drei";
 
